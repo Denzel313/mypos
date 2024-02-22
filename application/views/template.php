@@ -15,7 +15,7 @@
 	<![endif]-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-yellow sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -122,7 +122,7 @@
 						<a href="<?=site_url('supplier')?>"><i class="fa fa-truck"></i> <span>Suppliers</span></a>
 					</li>
 					<li>
-						<a href="<?=site_url('customers')?>">
+						<a href="<?=site_url('customer')?>">
 							<i class="fa fa-users"></i> <span>Customers</span>
 						</a>
 					</li>
@@ -132,8 +132,8 @@
 							<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
 						</a>
 						<ul class="treeview-menu">
-							<li><a href="#"><i class="fa fa-circle-o"></i> Categories</a></li>
-							<li><a href="#"><i class="fa fa-circle-o"></i> Units</a></li>
+							<li><a href="<?=site_url('category')?>"><i class="fa fa-circle-o"></i> Categories</a></li>
+							<li><a href="<?=site_url('unit')?>"><i class="fa fa-circle-o"></i> Units</a></li>
 							<li><a href="#"><i class="fa fa-circle-o"></i> Items</a></li>
 						</ul>
 					</li>
